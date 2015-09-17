@@ -8,7 +8,7 @@ bot = BasicBot.new
 view = View.new
 
 view.welcome_player
-while true
+loop do 
 	result = game.play(view.players_next_move, bot.next_move)
 	view.display_result(result)
 end
