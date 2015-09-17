@@ -51,7 +51,7 @@ See: https://github.com/guard/guard
 
 See: https://github.com/guard/guard-minitest
 
-The command to run guard is ```gaurd```. It is a good idea to use this with Bundler e.g. ```bundle exec guard```.
+The command to run guard is ```guard```. It is a good idea to use this with Bundler e.g. ```bundle exec guard```.
 
 This will then start guard. Guard will follow the instructions in the Guardfile. In this case it will run the tests when ever a Ruby file is changed and saved. This could be a production file or a test file. It has been configured to try and run the relevant tests e.g. if you change View.rb then the  TestView.rb tests will be run.
 
